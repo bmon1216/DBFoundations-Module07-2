@@ -1,6 +1,6 @@
-# IT FDN 130 A Wi 21: Foundations of Databases & SQL Programming
+## IT FDN 130 A Wi 21: Foundations of Databases & SQL Programming
 
-## SQL Functions
+# SQL Functions
 
 ### Introduction
 
