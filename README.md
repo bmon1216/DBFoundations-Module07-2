@@ -1,12 +1,12 @@
-IT FDN 130 A Wi 21: Foundations of Databases & SQL Programming
+# IT FDN 130 A Wi 21: Foundations of Databases & SQL Programming
 
-SQL Functions
+## SQL Functions
 
-Introduction
+### Introduction
 
 This paper discusses user defined functions and their functionality. I talk about basic uses for user defined functions and show some examples. Lastly, I talk about scalar, inline, and multi-statement functions and their benefits. 
 	
-SQL UDF Uses
+### SQL UDF Uses
 
 User-Defined-Functions serve a handful of purposes. They can act as a check constraint by referencing a column in another table that you can’t otherwise do. See Figure 1.
 
@@ -26,7 +26,7 @@ User defined functions can use parameters which Views cannot. Views can reach th
 ![image](https://user-images.githubusercontent.com/79563064/109920227-d6632280-7c6e-11eb-9926-3b4b51ef225d.png)
 Fig. 3
 
-Scalar, Inline, & Multi-Statement Functions
+### Scalar, Inline, & Multi-Statement Functions
 
 Scalar functions can be helpful by creating a new column that is a result of applying a relationship between two previous columns. Multiplying two columns to create an extended price is a common example. See Figure 2 and Figure 4 together.
 	
@@ -50,6 +50,6 @@ Fig. 7
 
 “A  multi-statement table-valued function (which I wall call from now on the equally unmemorable MSTVF) is a function which returns a table of data, but only after some additional processing.” (https://www.wiseowl.co.uk/blog/s347/multi-statement.htm)
 
-Summary
+### Summary
 
 User defined functions can vary quite but are very useful. Instead of being bound to the basic built-in functions, molding your own function to perfection for a specific use sounds ideal! Scalar, In-line and MSTVF functions are awesome tools to have in your toolbox.
