@@ -1,5 +1,7 @@
 SQL Functions
+
 Introduction
+
 	This paper discusses user defined functions and their functionality. I talk about basic uses for user defined functions and show some examples. Lastly, I talk about scalar, inline, and multi-statement functions and their benefits. 
 SQL UDF Uses
 	User-Defined-Functions serve a handful of purposes. They can act as a check constraint by referencing a column in another table that you can’t otherwise do. See Figure 1.
@@ -14,7 +16,8 @@ Fig. 2
 User defined functions can use parameters which Views cannot. Views can reach the same result using the “where” clause, but I could imagine if you became proficient with functions, you would probably want to stick to the same flow.
   ![image](https://user-images.githubusercontent.com/79563064/109920218-d2cf9b80-7c6e-11eb-879c-d4afdf137444.png)
 ![image](https://user-images.githubusercontent.com/79563064/109920227-d6632280-7c6e-11eb-9926-3b4b51ef225d.png)
-Figure. 3
+Fig. 3
+
 Scalar, Inline, & Multi-Statement Functions
 	Scalar functions can be helpful by creating a new column that is a result of applying a relationship between two previous columns. Multiplying two columns to create an extended price is a common example. See Figure 2 and Figure 4 together.
  ![image](https://user-images.githubusercontent.com/79563064/109920238-da8f4000-7c6e-11eb-9e8e-d88476d3be94.png)
@@ -30,5 +33,7 @@ While a in-line table valued function can only have 1 select statement, a Multi-
  ![image](https://user-images.githubusercontent.com/79563064/109920281-ea0e8900-7c6e-11eb-9a2e-5a01682e8b35.png)
 Fig. 7
 “A  multi-statement table-valued function (which I wall call from now on the equally unmemorable MSTVF) is a function which returns a table of data, but only after some additional processing.” (https://www.wiseowl.co.uk/blog/s347/multi-statement.htm)
+
+
 Summary
  	User defined functions can vary quite but are very useful. Instead of being bound to the basic built-in functions, molding your own function to perfection for a specific use sounds ideal! Scalar, In-line and MSTVF functions are awesome tools to have in your toolbox.
